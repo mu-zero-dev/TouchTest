@@ -7,7 +7,7 @@ function startup() {
     log("Initialized.");
   }
   
-  document.addEventListener("DOMContentLoaded", startup);
+
   
   const ongoingTouches = [];
   
@@ -127,3 +127,4 @@ function startup() {
     container.textContent = `${msg} \n${container.textContent}`;
   }
   
+  document.addEventListener("DOMContentLoaded", startup);
